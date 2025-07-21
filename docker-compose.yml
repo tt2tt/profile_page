@@ -5,4 +5,9 @@ services:
       - "3000:3000"
     environment:
       - NODE_ENV=development
+      - WATCHPACK_POLLING=true
     command: npm run dev
+    volumes:
+      - ./pages:/app/pages
+      - ./components:/app/components
+      - ./styles:/app/styles
