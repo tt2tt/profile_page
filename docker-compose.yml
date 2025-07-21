@@ -9,3 +9,5 @@ services:
     command: npm run dev
     volumes:
       - ./pages:/app/pages
+      - ./components:/app/components
+      - ./styles:/app/styles
