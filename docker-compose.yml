@@ -10,4 +10,6 @@ services:
     volumes:
       - ./pages:/app/pages
       - ./components:/app/components
+      - ./data:/app/data
       - ./styles:/app/styles
+      - ./public:/app/public
