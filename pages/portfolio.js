@@ -1,11 +1,10 @@
-import Layout from '../components/Layout';
 import PortfolioItem from '../components/PortfolioItem';
 import portfolioItems from '../data/portfolioItems';
 
 export default function Portfolio() {
   return (
-    <Layout>
-      <h1>ポートフォリオ（随時追加）</h1>
+    <div>
+      <h1 className="text-2xl font-bold mb-4 m-4">Portfolio（随時追加）</h1>
       <ul className="grid grid-cols-12 gap-4">
         {portfolioItems.map((item, index) => (
           <PortfolioItem
@@ -19,6 +18,6 @@ export default function Portfolio() {
           />
         ))}
       </ul>
-    </Layout>
+    </div>
   );
 }
