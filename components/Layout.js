@@ -2,9 +2,9 @@ import Header from './Header';
 
 export default function Layout({ children }) {
   return (
-    <div className="min-h-screen flex flex-col p-4">
+    <div className="min-h-screen flex flex-col">
       <Header />
-      <main className="flex-grow container mx-auto px-4 bg-white shadow-md rounded-md">
+      <main className="flex-grow container mx-auto p-4 bg-white rounded-md" aria-label="Main content">
         {children}
       </main>
     </div>

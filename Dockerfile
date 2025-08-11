@@ -7,6 +7,7 @@ COPY package*.json ./
 # ...必要に応じて yarn.lock などをコピー...
 RUN npm install
 RUN npm install -D tailwindcss@3 postcss autoprefixer
+RUN npm install @emotion/react
 
 # 全ソースコードのコピーとビルド
 COPY . .

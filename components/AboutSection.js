@@ -2,11 +2,11 @@ import aboutData from '../data/aboutData';
 
 export default function AboutSection() {
   return (
-    <div className="flex flex-wrap">
+    <div className="flex flex-wrap justify-center items-center min-h-screen">
       <div id="img-aria" className="w-full md:w-1/3 p-4">
         <div
           id="profile_img"
-          className="relative bg-cover bg-center"
+          className="relative bg-cover bg-center rounded-full"
           style={{
             backgroundImage: `url('${aboutData.profileImage}')`,
             paddingBottom: "128.889%",
