@@ -1,8 +1,8 @@
 import Layout from '../components/Layout';
-import Top from './top';
-import About from './about';
-import Portfolio from './portfolio';
-import Skill from './skill';
+import Top from '../components/top';
+import About from '../components/about';
+import Portfolio from '../components/portfolio';
+import Skill from '../components/skill';
 
 export default function Home() {
   return (
