@@ -1,0 +1,8 @@
+# Next.js のビルド成果物など
+.next
+# Git のリポジトリ情報
+.git
+# npm や yarn のエラーログファイル
+npm-debug.log
+yarn-debug.log
+yarn-error.log
