@@ -1,4 +1,4 @@
-import SkillTabs from '../components/SkillTabs';
+import SkillTabs from './SkillTabs';
 
 export default function Skill() {
   return (
