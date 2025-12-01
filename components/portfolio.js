@@ -5,6 +5,7 @@ export default function Portfolio() {
   return (
     <div>
       <h1 className="text-2xl font-bold mb-4 m-4">Portfolio（随時追加）</h1>
+      <p className="mb-4 m-4">Websiteがあるものはリンクからアクセスできます。</p>
       <ul className="grid grid-cols-12 gap-4">
         {portfolioItems.map((item, index) => (
           <PortfolioItem
