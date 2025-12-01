@@ -5,7 +5,7 @@ const aboutData = {
     label: "tt2tt",
     url: "https://github.com/tt2tt",
   },
-  detail: "プログラミングスクールで学習後IT企業に入社し、Pythonを使用した自動化プログラムの作成やCMSを使用したWebサイトの作成を経験しています。常に新しい技術を1から学び業務を行ってきました。自身で考え周りと協力しながら作業を行うことができます。",
+  detail: "プログラミングスクールで学習後IT企業に入社し、Pythonを使用した自動化プログラムの作成やCMSを使用したWebサイトの作成を経験しています。常に新しい技術を1から学び業務を行ってきました。自身で考え周りと協力しながら作業を行うことができます。現在はバイブコーディングで責任あるコードを作成する方法を模索しています。",
   profileImage: "https://tt2tt-profile-page.web.app/img/profile_img.5a006b71.jpg",
 };
 
