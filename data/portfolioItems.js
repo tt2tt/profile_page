@@ -44,7 +44,7 @@ const portfolioItems = [
     description: "オリジナルポートフォリオ、知識共有プラットフォーム、AWSにデプロイしています。",
     lang: "Rails, AWS, MySQL",
     websiteLink: "",
-    githubLink: "https://github.com/tt2tt/sharebrain"
+    githubLink: "https://github.com/tt2tt/Portfolio"
   },
   {
     image: "/images/5ch_clone.png",
@@ -60,7 +60,7 @@ const portfolioItems = [
     description: "",
     lang: "Rails, PostgreSQL, Heroku",
     websiteLink: "",
-    githubLink: "https://github.com/tt2tt/insta_clone"
+    githubLink: "https://github.com/tt2tt/dive_rails_problem3"
   },
 ];
 
