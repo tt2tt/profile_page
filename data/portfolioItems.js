@@ -12,7 +12,7 @@ const portfolioItems = [
     title: "タイピング練習アプリ",
     description: "フロントエンドとバックエンドを分離して作成しています。Dockerを使用してコンテナ化し、Railwayにデプロイしています。OpenAIのAPIを利用して、タイピング練習用のテキストを動的に生成します。",
     lang: "Django, Next.js, MySQL, Docker, Railway",
-    websiteLink: "https://optimistic-emotion-production-03a3.up.railway.app",
+    websiteLink: "",
     githubLink: "https://github.com/tt2tt/typing_app"
   },
   {
